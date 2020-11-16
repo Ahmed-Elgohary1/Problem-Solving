@@ -1,0 +1,23 @@
+//always number of watched matches = n-1
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+//freopen("lazy.in", "rt", stdin);
+int t,x;
+cin>>t;
+x=t;
+while (t--)
+{
+    int i=0,n;
+    cin>>n;
+    cout << "Case " <<x-t  << ": " << n-1 << '\n';
+
+}
+    return 0;
+}
